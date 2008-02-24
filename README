@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2164
+
+I have not used or modified this script in a long time. Christophe-Marie Duquesne has published a script that is based on this script here, you will probably want to have a look at http://www.vim.org/scripts/script.php?script_id=3028
+
+Original description:
+A simple function to rename a C (and possibly C++) symbols (functions/variables) in multiple files using cscope information. Maybe just a starting point to adapt to your own needs, but at least works for me. 
+
+With the mapping below, one can start the renaming with \r, enter the new name and it will be renamed (using a simple substitution on the lines returned by cscope) in all files. Needs an up to date cscope reference file (see below). 
+
+
